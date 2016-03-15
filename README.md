@@ -42,6 +42,7 @@ For example: http://localhost:3000/api/books
 
 ![Books](http://i.imgur.com/I8D99G1.png?1)
 
+---------------------------------------------------------------
 
 #### Read book by id 
 
@@ -64,6 +65,9 @@ For example: http://localhost:3000/api/books/56e72eb50e7cc1fc0215863e
 	      "image_url": "http://prodimage.images-bn.com/pimages/9781455582877_p0_v2_s192x300.jpg",
 	      "create_date": "2016-03-14T21:35:49.368Z"
     }
+    
+---------------------------------------------------------------
+
     
 #### Update book by id 
 
@@ -99,3 +103,5 @@ For example: http://localhost:3000/api/books/56e72eb50e7cc1fc0215863e
 		  "ok": 1,
 		  "n": 1
 		}
+
+---------------------------------------------------------------
