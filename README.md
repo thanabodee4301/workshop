@@ -126,6 +126,9 @@ For example: http://localhost:3000/api/books/56e72eb50e7cc1fc0215863e
     }
 ![Edit form](http://i.imgur.com/jeIed7A.png?1)
 
+---------------------------------------------------------------
+
+
 #### Delete book by id 
 
 `DELETE`  - `#/api/books/:id`
