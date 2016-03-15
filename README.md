@@ -2,7 +2,42 @@
 
 ## RESTful API example:
 
+----------------------------------------------------------
+#### Create book 
 
+`POST`  - `#/api/books`
+
+For example: http://localhost:3000/api/books
+
+#### Request body
+	{
+	    "title" : "The notebook",
+	    "genre": "Romance",
+	    "description": "Set amid the austere beauty of coastal North Carolina in 1946, The Notebook begins with the story of Noah Calhoun, a rural Southerner returned home from World War II. ",
+	    "author": "Nicholas Spart",
+	    "publisher": "Foobar",
+	    "pages": "900",
+	    "image_url": "http://ecx.images-amazon.com/images/I/51q0fjsL61L._SX314_BO1,204,203,200_.jpg",
+	    "buy_url": "http://www.barnesandnoble.com/w/notebook-nicholas-sparks/1100298896?ean=9781455582877"
+	}
+	
+#### Response
+		{
+			  "__v": 0,
+			  "title": "The notebook",
+			  "genre": "Romance",
+			  "description": "Set amid the austere beauty of coastal North Carolina in 1946, The Notebook begins with the story of Noah Calhoun, a rural Southerner returned home from World War II. ",
+			  "author": "Nicholas Spart",
+			  "publisher": "Foobar",
+			  "pages": "900",
+			  "image_url": "http://ecx.images-amazon.com/images/I/51q0fjsL61L._SX314_BO1,204,203,200_.jpg",
+			  "buy_url": "http://www.barnesandnoble.com/w/notebook-nicholas-sparks/1100298896?ean=9781455582877",
+			  "_id": "56e84a4b1b253b2401bf0cac",
+			  "create_date": "2016-03-15T17:45:47.793Z"
+		}
+		
+		
+----------------------------------------------------------
 #### Read books
 
 `GET`  - `#/books`
